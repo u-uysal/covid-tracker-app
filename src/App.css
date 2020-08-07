@@ -9,12 +9,17 @@
   background-color: hsl(0, 0%, 98%);
 }
 
+.d-flex a {
+  padding: 20px;
+  color: #611f69;
+  text-decoration: underline;
+}
+
 .box h3 {
   font-weight: 200;
 }
 .box {
   background-color: #fff;
-
   margin: 15px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
@@ -38,12 +43,4 @@
 }
 .box-blue::after {
   background-color: hsl(212, 86%, 64%);
-}
-.d-flex a {
-  padding: 20px;
-  color: #611f69;
-  text-decoration: underline;
-}
-.carousel-inner {
-  position: absolute;
 }

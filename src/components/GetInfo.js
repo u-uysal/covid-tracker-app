@@ -38,7 +38,7 @@ export default function GetInfo({ changeCountry }) {
       <div className="row  d-flex justify-content-center p-2">
         <div className="col-sm-3 box box-orange">
           {" "}
-          <p style={{ fontSize: "3vw" }} className="mt-3">
+          <p style={{ fontSize: "2.5vw" }} className="mt-3">
             Infected
           </p>
           <p style={{ fontSize: "3vw" }} className="font-weight-bold">
@@ -50,7 +50,7 @@ export default function GetInfo({ changeCountry }) {
           </p>
         </div>
         <div className="col-sm-3 box box-red">
-          <p style={{ fontSize: "3vw" }} className="mt-3">
+          <p style={{ fontSize: "2.5vw" }} className="mt-3">
             Deaths
           </p>
           <p style={{ fontSize: "3vw" }} className="font-weight-bold">
@@ -63,7 +63,7 @@ export default function GetInfo({ changeCountry }) {
         </div>
         <div className="col-sm-3 box box-blue">
           {" "}
-          <p style={{ fontSize: "3vw" }} className="mt-3">
+          <p style={{ fontSize: "2.5vw" }} className="mt-3">
             Recovered
           </p>
           <p style={{ fontSize: "3vw" }} className="font-weight-bold">

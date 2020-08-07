@@ -6,15 +6,6 @@ import precautions from "../images/precautions.jpg";
 import world from "../images/world.jpg";
 
 function Carousel() {
-  const mystyle = {
-    textAlign: "center",
-    fontWeight: "bold",
-    top: "40%",
-    maxHeight: "250px",
-    position: "relative",
-    color: "red",
-  };
-
   return (
     <div id="demo" className="carousel slide" data-ride="carousel">
       <ul className="carousel-indicators">
@@ -31,7 +22,7 @@ function Carousel() {
             width="1100"
             height="500"
           />
-          <div style={mystyle} className="carousel-caption">
+          <div className="carousel-caption">
             <h3 className="mb-3" style={{ color: "#770707" }}>
               World Epidemics
             </h3>
@@ -54,7 +45,7 @@ function Carousel() {
             width="1100"
             height="500"
           />
-          <div style={mystyle} className="carousel-caption ">
+          <div className="carousel-caption ">
             <h2 style={{ color: "#fff" }}>How deadly is the coronavirus?</h2>
             <p style={{ color: "#fff" }}>
               Select country <a href="#select">below</a> and see results
@@ -68,8 +59,10 @@ function Carousel() {
             width="1100"
             height="500"
           />
-          <div style={mystyle} className="carousel-caption">
-            <h3>What should do against the Covid-19?</h3>
+          <div className="carousel-caption">
+            <h3 style={{ color: "#fff" }}>
+              What should do against the Covid-19?
+            </h3>
             <a href="#precautions">Click Here</a>
           </div>
         </div>
