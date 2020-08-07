@@ -12,6 +12,7 @@ function Carousel() {
     top: "40%",
     maxHeight: "250px",
     position: "relative",
+    color: "red",
   };
 
   return (
